@@ -1,0 +1,215 @@
+body {
+	background: rgb(255, 254, 210);
+	margin: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(59, 42, 12);
+}
+
+header {
+	display: block;
+	background: #ebca9c;
+	color: rgb(66, 41, 15);
+	padding: 1px;
+	padding-left: 10px;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.big {
+	color: rgb(66, 41, 15);
+	font-size: 50px;
+	padding-left: 20px;
+	font-weight:bolder;
+}
+
+nav {
+	display: block;
+	background: rgb(66, 41, 15);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+nav ul{
+	display: inline;
+	list-style-type: none;
+}
+
+nav li{
+	display: inline;
+	color: rgb(241, 221, 175);
+	font: 16px;
+	padding: 0;
+}
+
+nav a {
+	color:#f6e0a5;
+	text-decoration: underline;
+	text-align:center;
+	margin: 0 15px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color:#e89e36;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+section {
+	display: block;
+	background: rgb(255, 254, 210);
+	color: rgb(59, 42, 12);
+	width: 70%;
+	float: right;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+article {
+	display: block;
+	padding: 10px;
+	margin: auto;
+	font-size:large;
+}
+
+article img {
+	display: block;
+	margin: auto;
+	height: 75%;
+	margin-bottom: 20px;
+}
+
+article h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 0;
+}
+
+article p {
+	background: rgb(255, 254, 210);
+	text-align: left;
+	padding: 0;
+}
+
+article p.ora {
+	background: rgb(255, 254, 210);
+	text-align: center;
+	padding: 0;
+}
+
+article h2 {
+	text-align: left;
+	font-size: 24px;
+	padding: 0;
+}
+
+article hr {
+	background-color: rgb(78, 54, 0);
+	height: 1px;
+	border: none;
+}
+
+article table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+article th, td {
+	border: 2px solid rgb(78, 54, 0);
+	font-size: 20px;
+	padding: 5px;
+	margin: auto;
+}
+
+article li {
+	background: rgb(255, 254, 210);
+	font: 12px;
+	padding: 5px;
+}
+
+article ul {
+	list-style-type: none;
+}
+
+article a {
+	color: rgb(44, 31, 1);
+	text-decoration: underline;
+}
+
+article img {
+	width: 85%;
+	margin: auto;
+}
+
+form {
+  	background-color: rgb(236, 213, 165);
+  	padding: 24px;
+  	border-radius: 12px;
+  	max-width: 90%;
+  	margin-top: 24px;
+}
+
+label {
+  	display: block;
+  	margin-top: 16px;
+  	font-weight: bold;
+  	font-size: 15px;
+}
+
+input, textarea {
+  	width: 90%;
+	background-color: rgb(255, 254, 210);
+  	padding: 10px;
+  	margin-top: 6px;
+  	border: 1px solid rgb(90, 79, 54);
+  	border-radius: 6px;
+  	font-family: inherit;
+  	font-size: 16px;
+}
+
+textarea {
+  	resize: vertical;
+  	min-height: 120px;
+}
+
+button {
+  	margin-top: 24px;
+  	padding: 12px 24px;
+  	background-color: rgb(78, 54, 0);
+  	color: white;
+  	border: none;
+  	border-radius: 6px;
+  	cursor: pointer;
+  	font-size: 16px;
+}
+
+aside {
+	display: block;
+	width: 25%;
+	padding-right: 15px;
+	background-color: #eecca5;
+	height: 100vh;
+}
+
+aside img {
+	display: block;
+	margin: 0;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+aside p {
+	display: block;
+	padding-left: 20px;
+	padding-top: 20px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+footer {
+	display: block;
+	clear: both;
+	background: rgb(66, 41, 15);
+	padding: 5px;
+}
